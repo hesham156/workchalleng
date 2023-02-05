@@ -63,6 +63,8 @@ ul li a{
     text-align: center;
     left: -53px;
     color: #eef5ff;
+    transition: all 0.3s ease-in-out;
+
 
 }
 .sidenavce li:nth-child(1)::before {
@@ -96,14 +98,21 @@ cursor: pointer;
 .content {
     width: 70%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
 }
+
 .step{
     width: 0;
     height: 100%;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    background-color: black;
 }
 .sactivate{
+    color: black;
     width: 100%;
+    font-size: 39px;
 }
